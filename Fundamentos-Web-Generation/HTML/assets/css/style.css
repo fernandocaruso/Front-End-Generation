@@ -1,0 +1,105 @@
+/* style da página index.html */
+
+    body {
+
+        color: rgb(238, 238, 238);
+        margin: 0;
+        text-align: center;
+
+    }
+
+
+    .descricao {
+
+        background-color: blueviolet;
+        color: rgb(243, 243, 243);
+
+    }
+    .m1, .m2 {
+            background-color: rgb(202, 187, 216);
+            text-align: center;
+            font-size: 28px;
+            margin: 1;
+            font-family: Verdana;
+        }
+
+
+    h1 {
+        color: rgb(155, 245, 215);
+        background-color: rgb(35, 29, 77);
+        text-align: center;
+        font-size: 36px;
+        margin: 1;
+        font-family: Verdana;
+    }
+
+    .foto {
+
+        color: rgb(160, 236, 211);
+        background-color: rgb(35, 28, 82);
+        text-align: center;
+        font-size: 36px;
+        margin: 1;
+        font-family: Verdana;
+
+
+    }
+
+    .music {
+
+        color: rgb(160, 214, 196);
+        background-color: rgb(35, 28, 80);
+        text-align: center;
+        font-size: 36px;
+        margin: 1;
+        font-family: Verdana; 
+
+
+    }
+
+    img {
+        margin: 40px;
+        height: 500px;
+    }
+
+    h2 {
+
+        text-align: center;
+        margin: 0;
+    }
+
+
+
+
+/* style da página contato.html */
+
+    body {
+
+        margin: 0;
+        text-align: center;
+        background-image: url(galaxia.jpg)
+    }
+
+    .c1, .c2 {
+        background-color: rgb(202, 187, 216);
+        text-align: center;
+        font-size: 28px;
+        margin: 1;
+        font-family: Verdana;
+    
+    }
+    
+    .endereco {
+
+        color: aquamarine;
+        background-color: darkslateblue;
+        text-align: center;
+        font-size: 36px;
+        margin: 1;
+        font-family: Verdana;
+
+    }
+
+    .tamEnd {
+        font-size: 26px; 
+    }
