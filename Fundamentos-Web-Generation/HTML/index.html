@@ -3,21 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog da Madah</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&family=Shadows+Into+Light&family=Zen+Loop&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <ul> <!-- MENU COM DUAS PÁGINAS-->
-        <li class="m1"> <a href="index.html">Página Inicial</a></li>
-        <li class="m2"> <a href="contato.html">Fale com a Madah</a></li>
+    <ul class="menu"> <!-- MENU COM DUAS PÁGINAS-->
+        <li>
+             <a href="index.html"><b>Página Inicial</b></a>
+        </li>
+        <li>
+             <a href="contato.html"><b>Fale com a Madah</b></a>
+        </li>
     </ul>
 
-    <h1 style="font-family: Verdana;">Biografia da Madah</h1> <!-- texto principal do site! -->
-    <p class="descricao" style="font-family: Segoe UI;"> <b>Como eu ainda não nasci, ainda não tenho muita informação para oferecer, 
+        <!-- lembrar de perguntar para o professor como manter o menu FIXO no topo, mesmo descendo o site! -->
+    
+
+    <div class="container">
+        <div class="center">
+            <h1>Biografia da Madah</h1> <!-- texto principal do site! -->
+    <p class="descricao"> <b>Como eu ainda não nasci, ainda não tenho muita informação para oferecer, 
         mas desde sempre sou muito agitada, chuto bastante, gosto da voz do papai, gosto muito de frutas, sucos naturais e iogurtes,
         e as vezes não deixo minha mamãe dormir pois chuto muito. 
         Estou prevista para nascer no final de setembro e a mamãe e o papai não aguentam mais de tanta ansiedade.
@@ -28,18 +37,34 @@
         Sou muito paparicada pelas minhas avós e pelo meu vovô, além de ser a xodó da minha bisavó. Sou a criança mais sortuda pois tenho três avós!!! 
         Mal posso esperar para chegar. Vejo vocês daqui a pouquinho!!</b>
     </p>
+    </div>
 
-    <h2 class="foto">Minha primeira foto:</h2>
-    <img src="assets/ultrassom-madah.jpg" alt="#PraCegoVer: foto do ultrassom da Madah"> <!-- src = link da foto // alt = leitura da foto -->
+        <div>
+        <h2 class="center">Minha primeira foto:</h2>
+        <img class="br-75 wh-400" src="assets/ultrassom-madah.jpg" alt="#PraCegoVer: foto do ultrassom da Madah"> <!-- src = link da foto // alt = leitura da foto -->
+        </div>
+
+    </div>
 
     <h3 class="music">Trecho da música que me acalma quando estou agitada:</h3> <!-- através do comando iframe, é possível por pedaço de um site dentro do meu site! -->
-
-    <iframe src="https://open.spotify.com/embed/track/4YsgFGkP1KeSFDWfZqVioX?theme=0" 
+    <iframe class="mb-50" src="https://open.spotify.com/embed/track/4YsgFGkP1KeSFDWfZqVioX?theme=0" 
     width="100%" 
     height="500" 
     frameBorder="3" 
     allowtransparency="true" 
     allow="encrypted-media"></iframe> <!-- permitir em fullscreen! -->
+    <hr>
+    <footer class="center">
+        <div class="container">
+            <a href="http://github.com/fernandocaruso" target="_blank">
+                <img class="tm-social" src="assets/css/pngwing.com.png" alt="logo do github">
+            </a>
+        </div>
+
+        <p><i>Blog designado à Madalena Odara de Castro Caruso</i></p>
+
+    </footer>
+
 
 
 

@@ -1,105 +1,144 @@
 /* style da página index.html */
 
-    body {
-
-        color: rgb(238, 238, 238);
-        margin: 0;
-        text-align: center;
-
-    }
 
 
-    .descricao {
-
-        background-color: blueviolet;
-        color: rgb(243, 243, 243);
-
-    }
-    .m1, .m2 {
-            background-color: rgb(202, 187, 216);
-            text-align: center;
-            font-size: 28px;
-            margin: 1;
-            font-family: Verdana;
-        }
+body{
 
 
-    h1 {
-        color: rgb(155, 245, 215);
-        background-color: rgb(35, 29, 77);
-        text-align: center;
-        font-size: 36px;
-        margin: 1;
-        font-family: Verdana;
-    }
-
-    .foto {
-
-        color: rgb(160, 236, 211);
-        background-color: rgb(35, 28, 82);
-        text-align: center;
-        font-size: 36px;
-        margin: 1;
-        font-family: Verdana;
+    background-image: url(teste2bg.jpg);
 
 
-    }
+}
+.center {
 
-    .music {
+    text-align: center;
+}
 
-        color: rgb(160, 214, 196);
-        background-color: rgb(35, 28, 80);
-        text-align: center;
-        font-size: 36px;
-        margin: 1;
-        font-family: Verdana; 
+.center h1 {
 
-
-    }
-
-    img {
-        margin: 40px;
-        height: 500px;
-    }
-
-    h2 {
-
-        text-align: center;
-        margin: 0;
-    }
-
-
-
-
-/* style da página contato.html */
-
-    body {
-
-        margin: 0;
-        text-align: center;
-        background-image: url(galaxia.jpg)
-    }
-
-    .c1, .c2 {
-        background-color: rgb(202, 187, 216);
-        text-align: center;
-        font-size: 28px;
-        margin: 1;
-        font-family: Verdana;
+    background-image: url(backgroundmenu2.jpg);
     
-    }
+}
+
+
+.menu li {
+
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Josefin Slab', serif;
+    background-image: url(fundomenu.jpg)
+
+
+}
+
+.menu li a {
+
     
-    .endereco {
+    font-family: 'Josefin Slab', serif;
+    text-decoration: none;
+    color:rgb(252, 252, 252)
 
-        color: aquamarine;
-        background-color: darkslateblue;
-        text-align: center;
-        font-size: 36px;
-        margin: 1;
-        font-family: Verdana;
+}
 
-    }
+menu li a:hover {
 
-    .tamEnd {
-        font-size: 26px; 
-    }
+   color:rgb(228, 212, 220);
+}
+
+.container {
+
+display: flex;
+flex-flow: row;
+justify-content:center;
+align-items: center;
+
+}
+
+.br-75 {
+
+    border-radius: 50%;
+}
+
+.wh-400 {
+
+    width: 450px;
+    height: 450px;
+    padding: 30px;
+
+
+}
+.descricao {
+
+    font-family: 'Zen Loop', cursive;
+    font-size: 24px;
+    padding: 6px;
+    text-align: center;
+    color: rgb(199, 51, 127);
+    background-image: url(fundobiografia.jpg);
+}
+
+h1 {
+
+    font-family: 'Zen Loop', cursive;
+    color: rgb(199, 199, 199);
+    
+    
+
+}
+
+h2 {
+    
+    font-family: 'Zen Loop', cursive;
+    font-size: 26px;
+    color: rgb(207, 207, 202);
+    background-image: url(backgroundmenu2.jpg);
+}
+
+h3 {
+
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    font-size: 26px;
+    color: rgb(218, 193, 198);
+    background-image: url(backgroundmenu2.jpg);
+
+}
+
+.tm-social {
+
+    width: 80px;
+    height: 80px;
+    padding: 30px;
+
+}
+
+.mb-50 {
+
+    margin-bottom: 50px;
+}
+
+/* Alterações Style - aba Contato! */
+
+.end1 p {
+
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Zen Loop', cursive;
+    background-image: url(backgroundmenu2.jpg);
+}
+
+
+.center {
+
+    color: rgb(255, 255, 255);
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;
+
+}
+
+.contato1 {
+
+    background-image: url(backgroundmenu2.jpg);
+
+}
